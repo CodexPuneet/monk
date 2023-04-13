@@ -1,0 +1,69 @@
+.glowing-text {
+  font-size: 60px;
+  color: #fff;
+  margin-top:20px;
+  text-align: center;
+  animation: glowing 2s ease-in-out infinite;
+}
+
+@keyframes glowing {
+  0% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1d388c, 0 0 40px #1d388c, 0 0 50px #1d388c, 0 0 60px #00adee, 0 0 70px #1d388c;
+  }
+  50% {
+    text-shadow: 0 0 20px #fff, 0 0 30px #1d388c, 0 0 40px #00adee, 0 0 50px #1d388c, 0 0 60px #00adee, 0 0 70px #00adee, 0 0 80px #00adee;
+  }
+  100% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1d388c, 0 0 40px #00adee, 0 0 50px #00adee, 0 0 60px #1d388c, 0 0 70px #1d388c;
+  }
+}
+
+.glow {
+  font-size: 60px;
+  color: #08f2d6;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  50% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #20bf20, 0 0 40px #a89217, 0 0 50px #6e9e40, 0 0 60px #1c9730, 0 0 70px #c3b4bc;
+  }
+  100% {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: auto;
+}
+
+.user-details img {
+  width: 18rem;
+  margin-top: 50px;
+  height: 18rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.user-details h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 1rem;
+}
+
+.user-details p {
+  font-size: 1.5rem;
+  color: #666666;
+  margin-bottom: 1rem;
+}
+
+
+.form{
+  width:30%;
+  margin:auto;
+}
